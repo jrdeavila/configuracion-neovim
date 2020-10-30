@@ -2,12 +2,13 @@
   "Para linux"
   let $MYVIMRC = '~/.config/nvim/init.vim'
   let $DIRVIM = '~/.config/nvim'
+
   let g:mapleader = ' ' "Definir espacio como la tecla leader"
   
   nnoremap <C-S> :wq<CR>
   nnoremap <C-s> :w<CR>
   nnoremap <C-p> :e $MYVIMRC<CR>
-  nnoremap <C-n> :so $MYVIMRC<CR>
+  nnoremap <C-l> :so $MYVIMRC<CR>
   nnoremap <C-d> :bdelete<CR>
   nnoremap <tab> :bnext<CR>
   nnoremap <S-tab> :bprevious<CR>

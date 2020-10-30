@@ -6,7 +6,7 @@ source ~/.config/nvim/general/atajos.vim
 source ~/.config/nvim/plugins/plugins.vim
 source ~/.config/nvim/plugins/NerdTree.vim
 source ~/.config/nvim/plugins/Ranger.vim
-"source ~/.config/nvim/plugins/Omnisharp.vim
+source ~/.config/nvim/plugins/Omnisharp.vim
 "configuracion del tema"
 source ~/.config/nvim/temas/airline.vim
 source ~/.config/nvim/temas/dracula.vim
