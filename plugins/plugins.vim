@@ -14,7 +14,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'vim-airline/vim-airline-themes'
 
   "coc.nvim para autocompletar codigo"
-  Plug 'neoclide/coc.nvim', {'branch':'release'}
+  "Plug 'neoclide/coc.nvim', {'branch':'release'}
   
   "Plugin de omnisharp para programar en C#"
   Plug 'Omnisharp/omnisharp-vim'
@@ -41,6 +41,20 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'crusoexia/vim-monokai'
   Plug 'ayu-theme/ayu-vim'
   Plug 'dracula/vim', {'as': 'dracula'}
-call plug#end()
+
+  "Autocompletar codigo"
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'Shougo/neco-syntax' 
+
+  "Mostrar lineas de identacion"
+  Plug 'Yggdroot/indentLine'
+  
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'preservim/nerdcommenter'
+  Plug 'norcalli/nvim-colorizer.lua'
+  Plug 'sirver/ultisnips'
+  
+  Plug 'zchee/deoplete-jedi'
+  call plug#end()
 
 
